@@ -1,0 +1,17 @@
+# Perry build outputs
+dist/
+.perry-cache/
+*.o
+
+# Generated type stubs (regenerate with `perry types`)
+.perry/types/
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+.cursorrules
+.cursorignore

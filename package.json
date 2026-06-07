@@ -1,0 +1,14 @@
+{
+  "name": "dev-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local dev environment dashboard — port scanner & Docker manager",
+  "scripts": {
+    "build": "perry compile src/main.ts -o dist/dev-dashboard",
+    "run": "perry run .",
+    "check": "perry check src/"
+  },
+  "devDependencies": {
+    "@perryts/perry": "latest"
+  }
+}
